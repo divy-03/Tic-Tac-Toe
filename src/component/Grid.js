@@ -6,6 +6,7 @@ const Grid = () => {
   const [gameOver, setGameOver] = useState(false);
   const [col, setCol] = useState("black")
 
+  // Added comment to check github connection
   const handlePlay = useCallback(
     (index) => {
       if (marks[index] === "minus") {
